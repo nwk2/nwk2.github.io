@@ -1,31 +1,27 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-size: 100%;
     line-height: 1.6;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 #wrapper{
     position: relative;
     width: 100%;
     min-height: 55vw;
     overflow: hidden;
 }
-
 .layer{
     position: absolute;
     width: 100vw;
     min-height: 55vw;
     overflow: hidden;
 }
-
 .layer .content-wrap{
     position: absolute;
     width: 100vw;
     min-height: 55vw;
 }
-
 .layer .content-body{
     width: 25%;
     position: absolute;
@@ -36,9 +32,6 @@ body{
     text-align: left;
     top: 20%;
 }
-/* .top p {
-    font-size: 1.5em; 
-} */
 h2 {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5em;
@@ -79,7 +72,6 @@ h2 {
     text-align: right;
     bottom: 20%;
 }
-
 .bottom h1{
     color: #FDAB00;
 }
@@ -87,7 +79,6 @@ h2 {
     position: absolute;
     left: 5%;
     top: 4%;
-
 }
 .layer img{
     position: absolute;
@@ -112,7 +103,6 @@ h2 {
     /* background: -moz-linear-gradient(bottom, orange, yellow, green, cyan, blue, violet); */ /* For Firefox 3.6 to 15 */
     /* background: linear-gradient(bottom, orange , yellow, green, cyan, blue, violet); */
     /* background-color: #FDAB00; for solid color*/
-
     background: linear-gradient(60deg, #ff2400, #e8b71d,#1de840, #2b1de8, #dd00f3);
     -webkit-animation: rainbow 18s ease infinite;
     -moz-animation: rainbow 18s ease infinite;
@@ -120,7 +110,6 @@ h2 {
     animation: rainbow 18s ease infinite;
 
 }
-
 @-webkit-keyframes rainbow {
     0%{background-position:0% 82%}
     50%{background-position:100% 19%}
@@ -141,25 +130,21 @@ h2 {
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
 }
-
 .skewed .handle{
     top: 50%;
     transform: rotate(30deg) translateY(-50%);
     height: 200%;
     transform-origin: top;
 }
-
 .skewed .top{
     transform: skew(-30deg);
     margin-left: -1000px;
     width: calc(50vw + 1000px);
 }
-
 .skewed .top .content-wrap {
     transform: skew(30deg);
     margin-left: 1000px; 
 }
-
 @media(max-width:768px){
     body{
         font-size: 75%;
@@ -200,9 +185,6 @@ h2 {
     from {color: #222;}
     to {color: #eee;}
 }
-
-
-
 .top .footer {
     position: absolute;
     bottom: 0;
