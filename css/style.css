@@ -200,3 +200,13 @@ h2 {
     background: #222;
     opacity: 0.8;
 }
+.footercontainer {
+    display: flex;
+    flex-direction: ltr;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.flex {
+    width: 50vw;
+
+}
