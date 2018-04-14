@@ -1,4 +1,4 @@
 # My Resume
-Resume in basic HTML/JS/CSS
+Resume in HTML/JS/CSS
 
 Incomplete - still a work in progress
