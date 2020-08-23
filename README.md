@@ -1,4 +1,1 @@
-# My Resume
-Resume in HTML/JS/CSS
-
-Incomplete - still a work in progress
+### A static site with a small introduction about myself
