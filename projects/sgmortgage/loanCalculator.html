@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/index.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+  <title>SG Mortgage: Loan Calculator</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"><img src="./resources/images/548aa6dc-eebd-4413-b95d-2d0784f5c5a0.png" style="padding-bottom: 5px; padding-left: 20px; height:90px;">Mortgage</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="loanCalculator.html">Loan Calculator</a></li>
+            <li><a href="#ourservices">Our Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </header>     
+    
+    <div id="main-body-container">
+        <div id="calculator-header-wrapper">
+            <div id="calculator-header-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg" style="padding: 0;">
+                            <p>Mortgage Payment Calculator</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg cal-col">
+                            Mortgage<br>
+                            Calculator
+                        </div>
+                        <div class="col-lg cal-col">
+                            Affordability<br>
+                            Calculator
+                        </div>
+                        <div class="col-lg cal-col">
+                            Refinance<br>
+                            Calculator
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="div-cal-section">
+            <div id="cal-wrapper" class="form-css">
+                <div class="row">
+                    <div class="col-lg">
+                            <p>Mortgage Calculator</p>
+                            <form>
+                                <div>
+                                    <input type="number" required=""/>
+                                    <label>Home Price</label>
+                                    <br>
+                                </div>
+                                <div>
+                                    <input type="number" required=""/>
+                                    <label>Down Payment</label>
+                                    <br>                    
+                                </div>
+                                <div>
+                                    <input type="number" required=""/>
+                                    <label>Interest Rate</label>
+                                    <br>
+                                </div>
+                                <div>    
+                                    <input type="number" required=""/>
+                                    <label>Loan Term</label>
+                                    <br>
+                                </div>
+                                <div>
+                                    <input type="number" required=""/>
+                                    <label>Private Mortgage Insurance</label>
+                                    <br>
+                                </div>
+                                <input type="submit" value="Calculate"/>
+                            </form>
+                    </div>
+                    <div class="col-lg" id="summary">
+                        <p>Summary</p>
+                        <form>
+                            <label>Income Required</label>
+                            <p>$0</p>
+                            <label>Monthly Instalment</label>
+                            <div>Based on lowest available rate of 0%*</div>
+                            <p>$0</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="newsletter-div">
+                <div class="box">
+                    <h1>For invaluable property investment tips and strategies, subscribe to our free weekly newsletter</h1>
+                    <form>
+                        <input type="text" name="" placeholder="Email">
+                        <input type="submit" name="" value="Subscribe for Free">
+                    </form>
+                </div>
+        </div>
+
+        <div id="footer-wrapper">
+                <div id="footer-social">
+                    <img class="social-icons" src="resources/icons/facebook.svg" alt="facebook-icon">
+                    <img class="social-icons" src="resources/icons/google-plus.svg" alt="google-icon">
+                    <img class="social-icons" src="resources/icons/linkedin.svg" alt="linkedin-icon">
+                    <img class="social-icons" src="resources/icons/twitter.svg" alt="twitter-icon">
+                </div>
+                <div id="footer-links" class="row">
+                    <div class="col-2">
+                            Site Map
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="loanCalculator.html">Loan Calculator</a></li>
+                            <li><a href="#">Case Studies</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
+    
+                            
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                            Locate Us
+                        <ul>
+                            <li>MapleTree Business City<br>
+                                20 Pasir Panjang Road<br>
+                                #08-22 Singapore 117439
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+
+
+</body>
+</html>

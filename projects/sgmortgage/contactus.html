@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/index.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <title>SG Mortgage: Contact Us</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"><img src="./resources/images/548aa6dc-eebd-4413-b95d-2d0784f5c5a0.png" style="padding-bottom: 5px; padding-left: 20px; height:90px;">Mortgage</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="loanCalculator.html">Loan Calculator</a></li>
+            <li><a href="#ourservices">Our Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </header> 
+    
+    <div id="main-body-container">
+        <div class="map-responsive">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.830339877278!2d103.79693791531521!3d1.2750998990699896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1bc0ad8e1477%3A0x98ec0bdee369db4a!2sMapletree+Business+City!5e0!3m2!1sen!2ssg!4v1538809480350" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        
+        <div class="container" id="form-container">
+            <div class="row" id="form-row">  
+                <div class="col-lg">
+                        <h1>Contact Us</h1>
+                            <form>
+                                <div class="form-group col-md">
+                                    <label for="inputName4">Name</label>
+                                    <input type="text" class="form-control" id="inputName4" placeholder="Name" required="">
+                                </div>
+                                <div class="form-group col-md">
+                                    <label for="inputEmail4">Email*</label>
+                                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required="">
+                                </div>
+                                <div class="form-group col-md">
+                                    <label for="inlineFormCustomSelect">Type</label>
+                                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" required>
+                                        <option selected>Please select...</option>
+                                        <option value="1">Query</option>
+                                        <option value="2">Feedback</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md">
+                                    <label for="inputSubject4">Subject</label>
+                                    <input type="text" class="form-control" id="inputSubject4" placeholder="" required="">
+                                </div>
+                                <div class="form-group col-md">
+                                    <label for="inputMessage4">Feedback</label>
+                                    <textarea class="form-control" id="inputMessage" rows="3" placeholder="Message" required=""></textarea>    
+                                    </div> 
+                                <button type="submit" class="btn1">Submit</button>
+                                <button type="reset" class="btn1">Clear</button>                                          
+                            </form>
+                </div>
+                <div class="col-lg" id="locate-us">
+                    <h1>Locate Us</h1>
+                    <h3>Address</h3>
+                    <p>MapleTree Business City<br>
+                       20 Pasir Panjang Road<br>
+                       #08-22 Singapore, 117439
+                    </p>
+                    <h3>Telephone</h3>
+                    <p>+(65) 6123 4567</p>
+                    <h3>Email</h3>
+                    <p>equiry@sgmortgage.com</p>
+
+
+
+                </div>
+            </div>
+        </div>
+        
+        <div id="newsletter-div">
+                <div class="box">
+                    <h1>For invaluable property investment tips and strategies, subscribe to our free weekly newsletter</h1>
+                    <form>
+                        <input type="text" name="" placeholder="Email">
+                        <input type="submit" name="" value="Subscribe for Free">
+                    </form>
+                </div>
+        </div>
+
+        <div id="footer-wrapper">
+                <div id="footer-social">
+                    <img class="social-icons" src="resources/icons/facebook.svg" alt="facebook-icon">
+                    <img class="social-icons" src="resources/icons/google-plus.svg" alt="google-icon">
+                    <img class="social-icons" src="resources/icons/linkedin.svg" alt="linkedin-icon">
+                    <img class="social-icons" src="resources/icons/twitter.svg" alt="twitter-icon">
+                </div>
+                <div id="footer-links" class="row">
+                    <div class="col-2">
+                            Site Map
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="loanCalculator.html">Loan Calculator</a></li>
+                            <li><a href="#">Case Studies</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
+    
+                            
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                            Locate Us
+                        <ul>
+                            <li>MapleTree Business City<br>
+                                20 Pasir Panjang Road<br>
+                                #08-22 Singapore 117439
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+       
+    </div>
+    
+</body>
+</html>
