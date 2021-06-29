@@ -1,2 +1,3 @@
 #### A static site with a small introduction about myself
-url: https://nwk2.github.io/
+- [homepage](https://nwk2.github.io/)
+- [projects](https://nwk2.github.io/projects/)
